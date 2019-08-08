@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/XRPP/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/XRTK/Portals/Scenes/AR360VideoPortal.unity
+    guid: d017cf16bfa194cb4834821686b8e348
   m_configObjects: {}

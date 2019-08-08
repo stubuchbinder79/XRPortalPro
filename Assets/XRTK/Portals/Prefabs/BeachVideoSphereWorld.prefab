@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6294490277103083038}
   - component: {fileID: 6993960152057105132}
+  - component: {fileID: 8352653835663125113}
   m_Layer: 0
-  m_Name: VideoSphereWorld
+  m_Name: BeachVideoSphereWorld
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47,6 +48,20 @@ MonoBehaviour:
   portalWindow: {fileID: 0}
   followDevice: 1
   materials: []
+--- !u!114 &8352653835663125113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6294490277103083037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51bbb6ec640ce4d6185c4f0dff7ddd88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoSource: 1
+  videoUrl: http://www.stubuchbinder.com/video/beach.mp4
 --- !u!1 &6294490277929991019
 GameObject:
   m_ObjectHideFlags: 0
@@ -147,7 +162,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6294490277929991019}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: b5b08e078ab5f46e1a49257678af3bf3, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: e115dd1856af6420fabefba5dce70648, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -157,18 +172,18 @@ VideoPlayer:
   m_TargetMaterialProperty: _MainTex
   m_RenderMode: 3
   m_AspectRatio: 2
-  m_DataSource: 0
+  m_DataSource: 1
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 0.848
-  m_Url: https://vimeo.com/215984568
+  m_Url: https://www.stubuchbinder.com/videos/beach.mp4
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 1
   m_WaitForFirstFrame: 1
